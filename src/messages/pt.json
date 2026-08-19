@@ -1,0 +1,13 @@
+{
+  "Header": {
+    "about": "Sobre",
+    "projects": "Projetos",
+    "experience": "Experiências",
+    "contact": "Contato",
+    "language": "Português",
+    "theme": "Tema"
+  },
+  "Button": {
+    "downloadCV": "Baixar CV"
+  }
+}
