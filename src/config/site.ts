@@ -9,5 +9,6 @@ export const siteConfig = {
     email: "pmanoeldesantacruzpimentel@gmail.com",
     github: "",
     linkedin: "",
+    resume: "",
   },
 } as const;
