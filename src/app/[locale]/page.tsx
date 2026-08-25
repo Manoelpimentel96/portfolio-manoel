@@ -1,16 +1,17 @@
+import About from "@/components/about/About";
 import Header from "@/components/header/Header";
-import { getTranslations } from "next-intl/server";
+import Hero from "@/components/hero/Hero";
 
-export default async function LocalePage() {
-  const t = await getTranslations("Header");
-  const button = await getTranslations("Button");
-
+export default function LocalePage() {
   return (
     <>
       <Header />
 
       <main>
-      
+        <Hero />
+        
+        <About />
+        
       </main>
     </>
   );

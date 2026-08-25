@@ -9,5 +9,40 @@
   },
   "Button": {
     "downloadCV": "Download CV"
+  },
+  "Hero": {
+    "greeting": "Hello, my name is Manoel 👋",
+    "role": "Full Stack Developer",
+    "description": "I am a developer passionate about technology, with academic and practical experience building modern, accessible, and functional applications.",
+    "projects": "View Projects",
+    "downloadCV": "Download CV",
+    "location": "Cametá - PA, Brazil",
+    "availability": "Available for new projects"
+  },
+  "About": {
+    "label": "About me!",
+    "title": "Want to know more about me? Sure:",
+    "paragraph1": "I am a Junior Developer and Information Systems student, passionate about technology and the development of digital experiences.",
+    "paragraph2": "I have practical experience developing web and mobile applications, working with technologies such as HTML, CSS, JavaScript, React.js, and React Native, as well as knowledge of back-end development.",
+    "paragraph3": "Currently, I am deepening my knowledge of TypeScript, Tailwind CSS, Next.js, and Node.js, seeking to grow technically and apply good software development practices.",
+    "highlights": {
+      "technical": {
+        "title": "How I Work",
+        "description": "I strive to write clean, reusable, and maintainable code, always considering the experience of the people using the application."
+      },
+      "current": {
+        "title": "Continuous Learning",
+        "description": "I am constantly looking to grow, turn knowledge into practice, and keep up with good software development practices."
+      },
+      "professional": {
+        "title": "Professional Vision",
+        "description": "I want to grow as a developer, contribute to meaningful projects, and help build digital products that create value."
+      }
+    },
+    "navigation": {
+      "previous": "Previous card",
+      "next": "Next card",
+      "showCard": "Show card {index}"
+    }
   }
 }

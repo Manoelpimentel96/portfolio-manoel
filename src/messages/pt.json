@@ -9,5 +9,40 @@
   },
   "Button": {
     "downloadCV": "Baixar CV"
+  },
+  "Hero": {
+    "greeting": "Olá, meu nome é",
+    "role": "Desenvolvedor Full Stack",
+    "description": "Sou desenvolvedor apaixonado por tecnologia, com experiência acadêmica e prática no desenvolvimento de aplicações modernas, acessíveis e funcionais.",
+    "projects": "Ver Projetos",
+    "downloadCV": "Baixar CV",
+    "location": "Cametá - PA, Brasil",
+    "availability": "Disponível para novos projetos"
+  },
+  "About": {
+    "label": "Sobre mim!",
+    "title": "Quer saber mais sobre mim? Bom:",
+    "paragraph1": "Sou Desenvolvedor Júnior e estudante de Sistemas de Informação, apaixonado por tecnologia e pelo desenvolvimento de experiências digitais.",
+    "paragraph2": "Tenho experiência prática no desenvolvimento de aplicações web e mobile, trabalhando com tecnologias como HTML, CSS, JavaScript, React.js e React Native, além de conhecimentos em back-end.",
+    "paragraph3": "Atualmente venho aprofundando meus conhecimentos em TypeScript, Tailwind CSS, Next.js e Node.js, buscando evoluir tecnicamente e aplicar boas práticas no desenvolvimento de software.",
+    "highlights": {
+      "technical": {
+        "title": "Forma de trabalhar",
+        "description": "Busco escrever código organizado, reutilizável e fácil de manter, sempre pensando na experiência de quem utiliza a aplicação."
+      },
+      "current": {
+        "title": "Aprendizado contínuo",
+        "description": "Estou sempre buscando evoluir, transformar conhecimento em prática e acompanhar as boas práticas do desenvolvimento de software."
+      },
+      "professional": {
+        "title": "Visão profissional",
+        "description": "Quero crescer como desenvolvedor, participar de projetos relevantes e contribuir para a construção de produtos digitais que gerem valor."
+      }
+    },
+    "navigation": {
+      "previous": "Card anterior",
+      "next": "Próximo card",
+      "showCard": "Mostrar card {index}"
+    }
   }
 }

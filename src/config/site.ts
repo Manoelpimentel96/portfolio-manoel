@@ -5,10 +5,10 @@ export const siteConfig = {
   url: "",
 
   links: {
-    whatsapp: "91 993365154",
-    email: "pmanoeldesantacruzpimentel@gmail.com",
-    github: "",
-    linkedin: "",
-    resume: "",
+    whatsapp: "https://wa.me/5591993365154",
+    email: "mailto:pmanoeldesantacruzpimentel@gmail.com",
+    github: "https://github.com/Manoelpimentel96",
+    linkedin: "https://www.linkedin.com/in/manoel-pimentel-47278b318",
+    resume: "/cv/Curriculo.pdf",
   },
 } as const;
