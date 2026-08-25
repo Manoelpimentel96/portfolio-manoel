@@ -2,8 +2,6 @@
 
 import { useTranslations } from "next-intl";
 
-import { usePathname } from "@/i18n/navigation";
-
 type NavigationProps = {
   mobile?: boolean;
   onNavigate?: () => void;
@@ -16,7 +14,7 @@ const navigationItems = [
   },
   {
     key: "projects",
-    href: "#projects",
+    href: "#Projects",
   },
   {
     key: "experience",
@@ -33,7 +31,6 @@ export default function Navigation({
   onNavigate,
 }: NavigationProps) {
   const t = useTranslations("Header");
-  const pathname = usePathname();
 
   function handleNavigation(href: string) {
     onNavigate?.();

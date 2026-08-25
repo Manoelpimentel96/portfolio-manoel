@@ -44,5 +44,37 @@
       "next": "Next card",
       "showCard": "Show card {index}"
     }
+  },
+  "Projects": {
+    "eyebrow": "Projects",
+    "title": "Selected projects",
+    "description": "A selection of projects that represent my experience, skills, and growth in technology.",
+    "inProgressTitle": "Project under development.",
+    "inProgressDescription": "Please wait!",
+    "openProject": "Open project",
+
+    "project1": {
+      "title": "Hotel Management",
+      "description": "A hotel management system project.",
+      "tags": "Java|MySQL"
+    },
+
+    "project2": {
+      "title": "Second Project",
+      "description": "Description of the second project.",
+      "tags": "React|TypeScript|API"
+    },
+
+    "project3": {
+      "title": "Third Project",
+      "description": "Description of the third project.",
+      "tags": "Next.js|Node.js|PostgreSQL"
+    },
+    
+    "project4": {
+      "title": "Fourth Project",
+      "description": "Description of the fourth project.",
+      "tags": "React|Tailwind CSS|Git"
+    }
   }
 }

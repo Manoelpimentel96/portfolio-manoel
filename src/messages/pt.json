@@ -44,5 +44,33 @@
       "next": "Próximo card",
       "showCard": "Mostrar card {index}"
     }
+  },
+  "Projects": {
+    "eyebrow": "Projetos",
+    "title": "Projetos selecionados",
+    "description": "Uma seleção de projetos que representam minhas experiências, habilidades e evolução na área de tecnologia.",
+    "inProgressTitle": "Projeto em fase de desenvolvimento.",
+    "inProgressDescription": "Aguarde!",
+    "openProject": "Abrir projeto",
+    "project1": {
+      "title": "Gestão de Hotel",
+      "description": "O projeto consiste na criação de um sistema de gestão para hotelaria.",
+      "tags": "Java|MySQL"
+    },
+    "project2": {
+      "title": "Segundo Projeto",
+      "description": "Descrição do segundo projeto.",
+      "tags": "React|TypeScript|API"
+    },
+    "project3": {
+      "title": "Terceiro Projeto",
+      "description": "Descrição do terceiro projeto.",
+      "tags": "Next.js|Node.js|PostgreSQL"
+    },
+    "project4": {
+      "title": "Quarto Projeto",
+      "description": "Descrição do quarto projeto.",
+      "tags": "React|Tailwind CSS|Git"
+    }
   }
 }
