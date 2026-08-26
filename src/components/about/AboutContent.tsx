@@ -9,6 +9,7 @@ export default function AboutContent() {
         className="
           text-center
           text-2xl
+          text-gray-600
           font-bold
           tracking-tight
           text-foreground

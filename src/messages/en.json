@@ -72,5 +72,36 @@
       "description": "Web application for personal financial management, with income and expense tracking, category management, and data visualization through dashboards.",
       "tags": "React|TypeScript|API"
     }
+  },
+  "experience": {
+    "label": "Experience",
+    "title": "My professional experience",
+    "description": "My professional journey, experiences, and main activities developed in technology and related fields.",
+    "items": {
+      "technology": {
+        "company": "Information Systems College",
+        "role": "Technology Professional",
+        "period": "2026 — Present",
+        "location": "Cametá — PA, Brazil",
+        "description": "Working with technical support, development, and technology solutions.",
+        "points": [
+          "Technical support and maintenance of systems and equipment",
+          "Development and maintenance of technology solutions",
+          "Configuration and troubleshooting of technology resources"
+        ]
+      },
+      "cdl": {
+        "company": "CDL Cametá - PA",
+        "role": "Administrative Assistant",
+        "period": "2024 - August / November",
+        "location": "Pará — Brazil",
+        "description": "Experience in administrative routines, customer service, and organization.",
+        "points": [
+          "Customer service and support",
+          "Organization of documents and information",
+          "Support for administrative activities and processes"
+        ]
+      }
+    }
   }
 }

@@ -1,4 +1,5 @@
 import About from "@/components/about/About";
+import Experience from "@/components/experience/Experience";
 import Header from "@/components/header/Header";
 import Hero from "@/components/hero/Hero";
 import Projects from "@/components/projects/Projects";
@@ -14,6 +15,8 @@ export default function LocalePage() {
         <About />
 
         <Projects />
+
+        <Experience />
       </main>
     </>
   );

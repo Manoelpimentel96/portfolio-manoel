@@ -27,12 +27,14 @@ export default function AboutHighlights() {
   }
 
   useEffect(() => {
-    const interval = window.setInterval(next, 5000);
+    const interval = window.setInterval(() => {
+      setActiveIndex((current) => (current + 1) % total);
+    }, 5000);
 
     return () => {
       window.clearInterval(interval);
     };
-  }, []);
+  }, [total]);
 
   const activeKey = highlightKeys[activeIndex];
 
@@ -141,10 +143,9 @@ export default function AboutHighlights() {
                 rounded-full
                 transition-all
                 duration-300
-                ${
-                  index === activeIndex
-                    ? "w-7 bg-blue-600 dark:bg-yellow-400"
-                    : "w-2 bg-muted-foreground/40"
+                ${index === activeIndex
+                  ? "w-7 bg-blue-600 dark:bg-yellow-400"
+                  : "w-2 bg-muted-foreground/40"
                 }
               `}
             />

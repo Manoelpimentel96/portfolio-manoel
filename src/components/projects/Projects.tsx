@@ -34,6 +34,7 @@ export default async function Projects() {
             mb-10
             max-w-2xl
             text-center
+            text-gray-600
             sm:mb-12
             lg:mb-14
             lg:text-left

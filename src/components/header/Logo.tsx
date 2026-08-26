@@ -44,7 +44,7 @@ export default function Logo() {
       href="/"
       onClick={handleClick}
       aria-label="Voltar ao topo"
-      className="relative block h-[50px] w-[150px] cursor-pointer transition-opacity duration-200 hover:opacity-80"
+      className="relative block h-[70px] w-[150px] cursor-pointer transition-opacity duration-200 hover:opacity-80"
     >
       <Image
         src={logoSrc}

@@ -72,5 +72,37 @@
       "description": "Aplicação web para gerenciamento financeiro pessoal, com controle de receitas, despesas, categorias e visualização de dados por meio de dashboards.",
       "tags": "React|TypeScript|API"
     }
+  },
+  
+  "experience": {
+    "label": "Experiência",
+    "title": "Minha experiência profissional",
+    "description": "Minha trajetória profissional, experiências e principais atividades desenvolvidas nas áreas de tecnologia e áreas correlatas.",
+    "items": {
+      "technology": {
+        "company": "Faculdade de Sistemas de Informação",
+        "role": "Profissional de Tecnologia",
+        "period": "2026 — Atualmente",
+        "location": "Cametá — PA",
+        "description": "Atuação em suporte técnico, desenvolvimento e soluções em tecnologia.",
+        "points": [
+          "Suporte e manutenção de sistemas e equipamentos",
+          "Desenvolvimento e manutenção de soluções",
+          "Configuração e resolução de problemas tecnológicos"
+        ]
+      },
+      "cdl": {
+        "company": "CDL Cametá - PA",
+        "role": "Auxiliar Administrativo",
+        "period": "2024 - Agosto / Novembro",
+        "location": "Pará — Brasil",
+        "description": "Atuação em rotinas administrativas, atendimento e organização.",
+        "points": [
+          "Atendimento e suporte ao público",
+          "Organização de documentos e informações",
+          "Apoio às atividades e processos administrativos"
+        ]
+      }
+    }
   }
 }

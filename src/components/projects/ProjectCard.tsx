@@ -179,6 +179,7 @@ export default function ProjectCard({
                 border
                 border-border
                 text-muted-foreground
+                text-gray-600
                 transition-all
                 duration-200
                 group-hover:border-yellow-400

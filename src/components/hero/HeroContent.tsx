@@ -50,7 +50,7 @@ export default function HeroContent({
         </h1>
 
         <h2
-          className="mt-3 text-xlfont-semibold text-muted-foreground sm:text-2xl
+          className="mt-3 text-xlfont-semibold text-muted-foreground text-gray-600 sm:text-2xl
           "
         >
           {t("role")}
