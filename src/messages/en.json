@@ -11,9 +11,9 @@
     "downloadCV": "Download CV"
   },
   "Hero": {
-    "greeting": "Hello, my name is Manoel 👋",
-    "role": "Full Stack Developer",
-    "description": "I am a developer passionate about technology, with academic and practical experience building modern, accessible, and functional applications.",
+    "greeting": "Hello, my name is",
+    "role": "Junior Developer",
+    "description": "I am a Junior Developer and Information Systems student, passionate about technology and developing digital experiences.",
     "projects": "View Projects",
     "downloadCV": "Download CV",
     "location": "Cametá - PA, Brazil",
@@ -52,29 +52,25 @@
     "inProgressTitle": "Project under development.",
     "inProgressDescription": "Please wait!",
     "openProject": "Open project",
-
     "project1": {
-      "title": "Hotel Management",
-      "description": "A hotel management system project.",
-      "tags": "Java|MySQL"
+      "title": "Hotel Management System",
+      "description": "Desktop hotel management system developed with Java, Swing, and MySQL, featuring employee, room, reservation, housekeeping, and payment management.",
+      "tags": "Java|Swing|MySQL"
     },
-
     "project2": {
-      "title": "Second Project",
-      "description": "Description of the second project.",
-      "tags": "React|TypeScript|API"
+      "title": "Professional Portfolio",
+      "description": "Responsive web portfolio developed to showcase projects, experience, and professional skills, with support for multiple languages and light and dark themes.",
+      "tags": "Next.js|Tailwind CSS|TypeScript"
     },
-
     "project3": {
-      "title": "Third Project",
-      "description": "Description of the third project.",
+      "title": "Task Management System",
+      "description": "Web application for organizing tasks and projects, featuring user authentication, activity management, and data persistence.",
       "tags": "Next.js|Node.js|PostgreSQL"
     },
-    
     "project4": {
-      "title": "Fourth Project",
-      "description": "Description of the fourth project.",
-      "tags": "React|Tailwind CSS|Git"
+      "title": "Financial Management System",
+      "description": "Web application for personal financial management, with income and expense tracking, category management, and data visualization through dashboards.",
+      "tags": "React|TypeScript|API"
     }
   }
 }

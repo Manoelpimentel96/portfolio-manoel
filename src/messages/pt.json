@@ -12,7 +12,7 @@
   },
   "Hero": {
     "greeting": "Olá, meu nome é",
-    "role": "Desenvolvedor Full Stack",
+    "role": "Desenvolvedor Júnior",
     "description": "Sou desenvolvedor apaixonado por tecnologia, com experiência acadêmica e prática no desenvolvimento de aplicações modernas, acessíveis e funcionais.",
     "projects": "Ver Projetos",
     "downloadCV": "Baixar CV",
@@ -53,24 +53,24 @@
     "inProgressDescription": "Aguarde!",
     "openProject": "Abrir projeto",
     "project1": {
-      "title": "Gestão de Hotel",
-      "description": "O projeto consiste na criação de um sistema de gestão para hotelaria.",
-      "tags": "Java|MySQL"
+      "title": "Sistema de Gestão Hoteleira",
+      "description": "Sistema desktop para gestão hoteleira, desenvolvido em Java com Swing e MySQL, com recursos para gerenciamento de funcionários, quartos, reservas, limpeza e pagamentos.",
+      "tags": "Java|Swing|MySQL"
     },
     "project2": {
-      "title": "Segundo Projeto",
-      "description": "Descrição do segundo projeto.",
-      "tags": "React|TypeScript|API"
+      "title": "Portfólio Profissional",
+      "description": "Portfólio web responsivo desenvolvido para apresentar projetos, experiências e habilidades profissionais, com suporte a múltiplos idiomas e temas claro e escuro.",
+      "tags": "Next.js|Tailwind CSS|TypeScript"
     },
     "project3": {
-      "title": "Terceiro Projeto",
-      "description": "Descrição do terceiro projeto.",
+      "title": "Sistema de Gestão de Tarefas",
+      "description": "Aplicação web para organização de tarefas e projetos, com autenticação de usuários, gerenciamento de atividades e persistência de dados.",
       "tags": "Next.js|Node.js|PostgreSQL"
     },
     "project4": {
-      "title": "Quarto Projeto",
-      "description": "Descrição do quarto projeto.",
-      "tags": "React|Tailwind CSS|Git"
+      "title": "Sistema de Controle Financeiro",
+      "description": "Aplicação web para gerenciamento financeiro pessoal, com controle de receitas, despesas, categorias e visualização de dados por meio de dashboards.",
+      "tags": "React|TypeScript|API"
     }
   }
 }

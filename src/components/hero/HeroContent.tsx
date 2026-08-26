@@ -20,7 +20,7 @@ export default function HeroContent({
   const t = useTranslations("Hero");
 
   function handleProjectsClick() {
-    document.getElementById("projetos")?.scrollIntoView({
+    document.getElementById("Projects")?.scrollIntoView({
       behavior: "smooth",
     });
   }
