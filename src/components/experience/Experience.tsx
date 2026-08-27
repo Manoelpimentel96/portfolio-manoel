@@ -10,7 +10,7 @@ export default function Experience() {
       className="w-full border-b border-border bg-background py-20 md:py-24"
     >
       <Container>
-        <div className="flex w-full flex-col gap-14">
+        <div className="flex w-full flex-col gap-14 px-2 sm:px-0">
           <ExperienceHeader />
 
           <ExperienceTimeline />
