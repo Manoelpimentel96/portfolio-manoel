@@ -13,11 +13,18 @@
   "Hero": {
     "greeting": "Olá, meu nome é",
     "role": "Desenvolvedor Júnior",
-    "description": "Sou desenvolvedor apaixonado por tecnologia, com experiência acadêmica e prática no desenvolvimento de aplicações modernas, acessíveis e funcionais.",
-    "projects": "Ver Projetos",
+    "description": "Sou Desenvolvedor Júnior e estudante de Sistemas de Informação, apaixonado por tecnologia e pelo desenvolvimento de experiências digitais.",
+    "projects": "Ver projetos",
     "downloadCV": "Baixar CV",
     "location": "Cametá - PA, Brasil",
-    "availability": "Disponível para novos projetos"
+    "availability": "Disponível para novos projetos",
+    "card": {
+      "name": "Manoel Pimentel",
+      "role": "Dev Júnior",
+      "education": "Sistemas de Informação",
+      "status": "Disponível",
+      "badgeId": "DEV-2026"
+    }
   },
   "About": {
     "label": "Sobre mim!",
@@ -73,7 +80,6 @@
       "tags": "React|TypeScript|API"
     }
   },
-  
   "experience": {
     "label": "Experiência",
     "title": "Minha experiência profissional",
@@ -103,6 +109,26 @@
           "Apoio às atividades e processos administrativos"
         ]
       }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contato",
+    "title": "Vamos conversar?",
+    "description": "Estou disponível para novas oportunidades, projetos e colaborações na área de tecnologia.",
+    "location": "Localização",
+    "email": "E-mail",
+    "socials": "Redes sociais",
+    "form": {
+      "name": "Nome",
+      "namePlaceholder": "Seu nome",
+      "email": "E-mail",
+      "emailPlaceholder": "seuemail@email.com",
+      "subject": "Assunto",
+      "subjectPlaceholder": "Como posso ajudar?",
+      "message": "Mensagem",
+      "messagePlaceholder": "Escreva sua mensagem...",
+      "submit": "Enviar mensagem",
+      "submitting": "Enviando..."
     }
   }
 }

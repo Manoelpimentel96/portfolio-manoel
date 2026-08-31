@@ -14,10 +14,17 @@
     "greeting": "Hello, my name is",
     "role": "Junior Developer",
     "description": "I am a Junior Developer and Information Systems student, passionate about technology and developing digital experiences.",
-    "projects": "View Projects",
+    "projects": "View projects",
     "downloadCV": "Download CV",
     "location": "Cametá - PA, Brazil",
-    "availability": "Available for new projects"
+    "availability": "Available for new projects",
+    "card": {
+      "name": "Manoel Pimentel",
+      "role": "Junior Developer",
+      "education": "Information Systems",
+      "status": "Available",
+      "badgeId": "DEV-2026"
+    }
   },
   "About": {
     "label": "About me!",
@@ -102,6 +109,26 @@
           "Support for administrative activities and processes"
         ]
       }
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let's talk?",
+    "description": "I'm available for new opportunities, projects, and collaborations in technology.",
+    "location": "Location",
+    "email": "Email",
+    "socials": "Social networks",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "youremail@email.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "How can I help?",
+      "message": "Message",
+      "messagePlaceholder": "Write your message...",
+      "submit": "Send message",
+      "submitting": "Sending..."
     }
   }
 }

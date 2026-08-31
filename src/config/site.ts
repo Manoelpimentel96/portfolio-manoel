@@ -11,4 +11,9 @@ export const siteConfig = {
     linkedin: "https://www.linkedin.com/in/manoel-pimentel-47278b318",
     resume: "/cv/Curriculo.pdf",
   },
+  contact: {
+    email: "pmanoeldesantacruzpimentel@gmail.com",
+    location: "Cametá, Pará — Brasil",
+  },
+
 } as const;

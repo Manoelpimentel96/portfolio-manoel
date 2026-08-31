@@ -242,7 +242,7 @@ export default function ProjectCard({
             mt-4
             text-sm
             leading-6
-            text-center
+            text-justify
             text-muted-foreground
             lg:text-justify
           "

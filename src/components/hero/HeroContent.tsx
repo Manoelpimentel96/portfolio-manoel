@@ -2,21 +2,15 @@
 
 import { ArrowDown } from "lucide-react";
 import { useTranslations } from "next-intl";
-import type { ReactNode } from "react";
-
-import { Button } from "@/components/ui/Button";
 
 import DownloadCV from "@/components/header/DownloadCV";
+import { HangingIdCard } from "@/components/lightswind/hanging-id-card";
+import SocialLinks from "@/components/shared/SocialLinks";
+import { Button } from "@/components/ui/Button";
+
 import HeroInfo from "./HeroInfo";
-import SocialLinks from "./SocialLinks";
 
-type HeroContentProps = {
-  image: ReactNode;
-};
-
-export default function HeroContent({
-  image,
-}: HeroContentProps) {
+export default function HeroContent() {
   const t = useTranslations("Hero");
 
   function handleProjectsClick() {
@@ -27,64 +21,158 @@ export default function HeroContent({
 
   return (
     <div
-      className="grid min-h-[calc(100vh-5rem)] items-center gap-10 py-16
-        text-center lg:grid-cols-[1.15fr_0.85fr] lg:gap-16 lg:py-20 lg:text-left
+      className="
+        grid min-h-[calc(100vh-5rem)]
+        items-center
+        gap-12
+        py-16
+        text-center
+
+        lg:grid-cols-[1.1fr_0.9fr]
+        lg:gap-16
+        lg:py-20
+        lg:text-left
       "
     >
+      {/* =========================================================
+          CONTEÚDO PRINCIPAL
+      ========================================================= */}
 
       <div
-        className="order-1 lg:col-start-1 lg:row-start-1
+        className="
+          order-1
+          lg:col-start-1
+          lg:row-start-1
         "
       >
         <p
-          className="mb-3 text-sm font-medium tracking-wide text-blue-600 dark:text-yellow-400
+          className="
+            mb-3
+            text-sm
+            font-medium
+            tracking-wide
+            text-blue-600
+            dark:text-yellow-400
           "
         >
           {t("greeting")}
         </p>
+
         <h1
-          className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl lg:text-6xl
+          className="
+            text-4xl
+            font-bold
+            tracking-tight
+            text-foreground
+
+            sm:text-5xl
+            lg:text-6xl
           "
         >
           Manoel Pimentel
         </h1>
 
         <h2
-          className="mt-3 text-xlfont-semibold text-muted-foreground text-gray-600 sm:text-2xl
+          className="
+            mt-3
+            text-xl
+            font-semibold
+            text-muted-foreground
+
+            sm:text-2xl
           "
         >
           {t("role")}
         </h2>
       </div>
+
+      {/* =========================================================
+          CARTÃO PROFISSIONAL
+      ========================================================= */}
+
       <div
-        className="order-2 lg:col-start-2 lg:row-span-3 lg:row-start-1 lg:self-center
+        className="
+          order-2
+          flex
+          justify-center
+
+          lg:col-start-2
+          lg:row-span-3
+          lg:row-start-1
+          lg:self-center
         "
       >
-        {image}
+        <HangingIdCard
+          imageSrc="/images/profile.jpeg"
+          imageAlt="Foto de Manoel Pimentel"
+          ropeLength={80}
+          className="
+    scale-105
+    sm:scale-110
+    lg:scale-125
+  "
+        />
       </div>
+
+      {/* =========================================================
+          DESCRIÇÃO + AÇÕES
+      ========================================================= */}
+
       <div
-        className="order-3 lg:col-start-1 lg:row-start-2
+        className="
+          order-3
+          lg:col-start-1
+          lg:row-start-2
         "
       >
         <p
-          className="mx-auto max-w-2xl text-base leading-7 text-muted-foreground
-            sm:text-lg lg:mx-0
+          className="
+            mx-auto
+            max-w-2xl
+            text-base
+            leading-7
+            text-muted-foreground
+
+            sm:text-lg
+            lg:mx-0
           "
         >
           {t("description")}
         </p>
+
+        {/* Buttons */}
+
         <div
-          className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row
-            lg:items-start lg:justify-start
+          className="
+            mt-8
+            flex
+            flex-col
+            items-center
+            justify-center
+            gap-3
+
+            sm:flex-row
+
+            lg:items-start
+            lg:justify-start
           "
         >
           <Button
             type="button"
             onClick={handleProjectsClick}
-            className="bg-blue-600 text-white hover:border-blue-400 hover:bg-blue-700 hover:text-white
-              dark:bg-yellow-400 dark:text-slate-950 dark:hover:bg-yellow-300 dark:hover:text-slate-950
-            "
+            className="
+              bg-blue-600
+              text-white
 
+              hover:border-blue-400
+              hover:bg-blue-700
+              hover:text-white
+
+              dark:bg-yellow-400
+              dark:text-slate-950
+              dark:hover:bg-yellow-300
+              dark:hover:text-slate-950
+            "
           >
             {t("projects")}
 
@@ -97,15 +185,29 @@ export default function HeroContent({
           <DownloadCV />
         </div>
 
+        {/* Social links */}
+
         <div
-          className="mt-8 flex justify-center lg:justify-start
+          className="
+            mt-8
+            flex
+            justify-center
+
+            lg:justify-start
           "
         >
           <SocialLinks />
         </div>
 
+        {/* Location + availability */}
+
         <div
-          className="mt-8 flex justify-center lg:justify-start
+          className="
+            mt-8
+            flex
+            justify-center
+
+            lg:justify-start
           "
         >
           <HeroInfo
@@ -117,3 +219,4 @@ export default function HeroContent({
     </div>
   );
 }
+

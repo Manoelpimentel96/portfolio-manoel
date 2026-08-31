@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@plugin "../../node_modules/lightswind/plugin.js";
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -13,7 +15,6 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
