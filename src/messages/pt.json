@@ -17,14 +17,7 @@
     "projects": "Ver projetos",
     "downloadCV": "Baixar CV",
     "location": "Cametá - PA, Brasil",
-    "availability": "Disponível para novos projetos",
-    "card": {
-      "name": "Manoel Pimentel",
-      "role": "Dev Júnior",
-      "education": "Sistemas de Informação",
-      "status": "Disponível",
-      "badgeId": "DEV-2026"
-    }
+    "availability": "Disponível para novos projetos"
   },
   "About": {
     "label": "Sobre mim!",

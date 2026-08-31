@@ -17,14 +17,7 @@
     "projects": "View projects",
     "downloadCV": "Download CV",
     "location": "Cametá - PA, Brazil",
-    "availability": "Available for new projects",
-    "card": {
-      "name": "Manoel Pimentel",
-      "role": "Junior Developer",
-      "education": "Information Systems",
-      "status": "Available",
-      "badgeId": "DEV-2026"
-    }
+    "availability": "Available for new projects"
   },
   "About": {
     "label": "About me!",
